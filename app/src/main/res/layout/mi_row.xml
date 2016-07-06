@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#aba4a4"
+   android:layout_marginTop="5dp"
+    android:gravity="center_vertical"
+    android:layout_height="60dp"
+    android:weightSum="1">
+    <View
+        android:layout_width="40dp"
+        android:background="@color/red"
+        android:layout_height="match_parent"
+        android:id="@+id/View_estado" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nombre"
+        android:id="@+id/textView_nombre"
+        android:layout_weight="0.37" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Apellido"
+        android:id="@+id/textView_Apellido"
+        android:layout_weight="0.37" />
+</LinearLayout>
